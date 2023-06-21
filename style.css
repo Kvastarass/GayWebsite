@@ -298,3 +298,134 @@ font-size: 30px;
     display: flex;
     flex-direction: row;
 }
+
+/* testimonials */
+
+.testimonials{
+    font-family: graphik, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: #252B42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 30px 0;
+}
+.testimonials img{
+    margin: 50px 0;
+}
+.testimonials p{
+    padding: 30px 0;
+}
+.testimonials a{
+    margin: 30px 0;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 30px 0;
+    
+}
+.avatar h6{
+    font-weight: 300;
+    text-align: left;
+}
+.avatar img{
+    margin: 0;
+}
+
+/* prising */
+
+.pricing{
+    font-family: graphik, sans-serif;
+    background-color: #252B42;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pricing h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    /* letter-spacing: 1px; */
+}
+.pricing h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 100px 0 10px 0;
+}
+
+.row-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.fsb{
+    background-color: #ffffff;
+    color: #252B42;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 40px 40px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    transition-property: background-color, color, padding, margin;
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
+}
+.fsb .btn-light-blue{
+    transition-property: background-color, color;
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
+}
+
+.fsb:hover{
+    background-color: #2091F9;
+    color: #ffffff;
+    padding: 60px 40px;
+    margin: 0px 20px;
+}
+.fsb:hover .btn-light-blue{
+    background-color: #ffffff;
+    color: #2091F9;
+}
+
+.fsb ul li{
+    list-style-type: none;
+    margin: 20px 0;
+}
+.fsb h3{
+    font-size: 30px;
+}
+.fsb h1{
+    font-size: 60px;
+}
+
+.permonth1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+}
+.permonth2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px;
+}
