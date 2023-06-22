@@ -490,6 +490,7 @@ font-size: 30px;
 .send-btn{
     display: flex;    
     align-self: baseline;
+    font-family: graphik, sans-serif;
     
 }
 .contact-form textarea{
