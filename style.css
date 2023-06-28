@@ -679,7 +679,8 @@ font-size: 30px;
         position: absolute;
         top: 50px;
         right: 0;
-        background-color: #2091F9;
+        /* background-color: #2091F9; */
+        background-color: rgba(32, 145, 249, 0.95);
         width: 170px;
         border-top-left-radius: 5%;
         border-bottom-left-radius: 5%;
@@ -692,6 +693,10 @@ font-size: 30px;
         margin-bottom: 20px;
         margin-right: 50px;
         text-align: right;
+    }
+    nav ul li a{
+        opacity: 1;
+        
     }
     .menu-icon{
         display: block;
