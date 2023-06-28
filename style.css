@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+.body{
+    overflow-x: hidden;
+}
+
 .wrapper{
     color: #ffffff;
     font-family: graphik, sans-serif;
@@ -738,6 +742,10 @@ font-size: 30px;
         }
                 .videoscreen-2 {
                     display: flex;
+                    
+                }
+                .videoscreen-2 img{
+                    max-width: 100%;
                 }
 
     .col-2 h2{
