@@ -743,9 +743,13 @@ font-size: 30px;
                 .videoscreen-2 {
                     display: flex;
                     
+                    
                 }
                 .videoscreen-2 img{
+                    display: block;
+                    /* max-width: 100%; */
                     max-width: 100%;
+                    overflow: hidden;
                 }
 
     .col-2 h2{
