@@ -28,6 +28,7 @@
     
     background: url(./images/background-header.png);
     height: 110vh;
+    max-width: 100%;
     background-size: cover;
     background-position: center;
     
@@ -823,6 +824,10 @@ font-size: 30px;
 
                 .contacts-2{
                     flex-direction: column-reverse;
+                    max-width: 100%;
+                }
+                .contacts-2 input, textarea{
+                    max-width: 100%;
                 }
                 .contact-else{
                     display: flex;
